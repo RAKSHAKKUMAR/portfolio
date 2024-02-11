@@ -92,12 +92,12 @@ background-color: f4f4f4;
 
 }
 
-.profile-card .subs-msg{
+/* .profile-card .subs-msg{
     display: flex;
     align-items:center;
-    /* margin: 10 0px; */
-    /* padding: 0 10px; */
-    /* justify-content: space-between; */
+    margin: 10 0px;
+    padding: 0 10px;
+    justify-content: space-between;
 }
 
 .subscribe{
@@ -115,4 +115,26 @@ background-color: f4f4f4;
     margin: 10px;
     padding: 5px;
     color: #fff;
+} the mistake is i created a non btn using div and css*/
+
+.profile-card .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.buttons .btn{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 20px;
+    margin: 0 10px;
+    background-color: #4070f4;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.buttons .btn:hover{
+    background-color: #000000;
 }
