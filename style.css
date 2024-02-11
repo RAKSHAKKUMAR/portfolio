@@ -58,5 +58,42 @@ background-color: f4f4f4;
     font-weight: 400;
 }
 .profile-card .media-btn{
-    
+    display: flex;
+    align-items: center;
+}
+.profile-card .link{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    /* background-color: rgb(236, 74, 74); */
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    /* object-fit: cover; */
+}
+
+.profile-card .subs-msg{
+    display: flex;
+    align-items:center;
+    /* margin: 10 0px; */
+    /* padding: 0 10px; */
+    /* justify-content: space-between; */
+}
+
+.subscribe{
+    background-color:rgb(43, 127, 187);
+    border: 1px solid rgb(0, 150, 255);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+}
+.message{
+    background-color:rgb(43, 127, 187);
+    border: 1px solid rgb(0, 150, 255);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
 }
