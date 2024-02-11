@@ -60,17 +60,36 @@ background-color: f4f4f4;
 .profile-card .media-btn{
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
-.profile-card .link{
+/* .profile-card .link{
     display: flex;
     align-items: center;
+    margin-top: 10px;
     height: 35px;
     width: 35px;
-    /* background-color: rgb(236, 74, 74); */
+    background-color: rgb(236, 74, 74);
     border: 2px solid black;
     border-radius: 50%;
     margin: 5px;
-    /* object-fit: cover; */
+    object-fit: cover;
+
+    this is rakshak shit code
+} */
+
+.profile-card .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 0 10px;
+    background-color: #4070f4;
+    text-decoration: none;
+
 }
 
 .profile-card .subs-msg{
